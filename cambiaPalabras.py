@@ -9,6 +9,6 @@ fichero.close()
 nueva = original.replace(palabraOriginal, palabraNueva)
 
 
-fichero = open('fichero.txt', 'w')
+fichero = open(_FICHERO, 'w')
 fichero.write(nueva)
 fichero.close()
