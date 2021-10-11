@@ -1,4 +1,9 @@
 import os
+import sys
+
+argumentos = sys.argv
+
+
 
 _FICHERO = input("Fichero: ")
 
